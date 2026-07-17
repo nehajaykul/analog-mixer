@@ -16,7 +16,7 @@ simulated in LTspice, and laid out in KiCad for JLCPCB fabrication.
 - Cascaded Kerwin-Huelsman-Newcomb state-variable filters; Qs chosen for maximum passband flatness
   - Stage 1: f₀ = 200 Hz, Q = ~1.0
   - Stage 2: f₀ = 4 kHz, Q = ~.83
-- Phase cancellation resolved at summing node — <1.1 dB passband deviation
+- Reduced summing-node phase cancellation, achieving <1.1 dB response variation across the band-pass (200 Hz–4 kHz)
 - Pre-fader listen (PFL) cue system with headphone output; tapped after gain/trim stage and before channel fader
 - Clipping LED indicator with 9.1V zener threshold (~11V signal threshold)
 - Isolated ±15V dual-rail power supply (Traco TMR 6-1223)
