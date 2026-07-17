@@ -38,7 +38,6 @@ Purpose: Evaluate circuit response across potentiometer ranges.
 
 
 TRACK A
--------
 .param low_a=.999
 .param band_a=.999
 .param high_a=.999
@@ -50,7 +49,6 @@ Note: .999 pot values are used for testing voltage clipping.
 
 
 TRACK B
--------
 .param low_b=.5
 .param band_b=.5
 .param high_b=.5
@@ -62,7 +60,6 @@ Note: .5 pot values are used for testing standard functionality.
 
 
 MASTER
-------
 .param cross=.5
 .param master=.5
 .param pfl=.5
