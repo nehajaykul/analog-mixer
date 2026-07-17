@@ -6,9 +6,9 @@ simulated in LTspice, and laid out in KiCad for JLCPCB fabrication.
 
 ## Signal Chain
 
-Input (3.5mm TRS) → L+R summing → 4th-order Sallen-Key HPF (f₀=12Hz) 
-→ Cascaded KHN SVF EQ (200Hz / 4kHz crossovers) → Gain/trim 
-→ Channel fader → Crossfader → Virtual-earth summing amp → Master output
+[3.5mm Input] → [L+R Sum] → [Sallen-Key HPF] → [SVF EQ Stage 1: 200Hz]
+    → [SVF EQ Stage 2: 4kHz] → [Gain/Trim] → [Channel Fader]
+    → [Crossfader] → [Virtual-Earth Sum] → [Master Output]
 
 ## Features
 
@@ -17,7 +17,7 @@ Input (3.5mm TRS) → L+R summing → 4th-order Sallen-Key HPF (f₀=12Hz)
   - Stage 1: f₀ = 200 Hz, Q = ~1.0
   - Stage 2: f₀ = 4 kHz, Q = ~.83
 - Phase cancellation resolved at summing node — <1.1 dB passband deviation
-- Pre-fader listen (PFL) cue system with headphone output; tapped before gain/trim stage
+- Pre-fader listen (PFL) cue system with headphone output; tapped after gain/trim stage and before channel fader
 - Clipping LED indicator with 9.1V zener threshold (~11V signal threshold)
 - Isolated ±15V dual-rail power supply (Traco TMR 6-1223)
 - 15+ NE5532/TL072 op-amps throughout signal path
@@ -34,3 +34,11 @@ Input (3.5mm TRS) → L+R summing → 4th-order Sallen-Key HPF (f₀=12Hz)
 | PCB | 2-layer, JLCPCB fabrication |
 
 ## Repository Structure
+
+```
+/ltspice     — LTspice simulation files (.asc) for each circuit stage
+/kicad       — KiCad schematic (.kicad_sch) and PCB layout (.kicad_pcb)
+/gerbers     — Fabrication files for JLCPCB 2-layer PCB production
+/docs        — Schematic PDF, simulation result plots, BOM
+README.md    — Project overview
+```
