@@ -21387,7 +21387,7 @@
 			(uuid "a10eadfa-e299-4df3-97ec-ce413d810c00")
 		)
 		(instances
-			(project "channel_a_b"
+			(project "full_mixer"
 				(path "/be4bb1e6-9076-478d-8212-55b70a7b3c94"
 					(page "4")
 				)
@@ -21464,7 +21464,7 @@
 			(uuid "a2c309b6-0cab-49c7-8a71-48512b668dd7")
 		)
 		(instances
-			(project "channel_a_b"
+			(project "full_mixer"
 				(path "/be4bb1e6-9076-478d-8212-55b70a7b3c94"
 					(page "2")
 				)
@@ -21541,7 +21541,7 @@
 			(uuid "5bc263e9-518c-4b54-a8fe-facd5e7d587e")
 		)
 		(instances
-			(project "channel_a_b"
+			(project "full_mixer"
 				(path "/be4bb1e6-9076-478d-8212-55b70a7b3c94"
 					(page "3")
 				)
