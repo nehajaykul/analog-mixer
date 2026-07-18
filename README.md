@@ -1,5 +1,4 @@
-# analog-mixer
-2-Channel-Analog-DJ-Mixer
+# 2-Channel-Analog-DJ-Mixer
 
 A fully analog 2-channel DJ mixer designed from first principles, 
 simulated in LTspice, and laid out in KiCad for JLCPCB fabrication.
