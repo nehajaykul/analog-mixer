@@ -12,6 +12,9 @@
 # Cache files
 fp-info-cache
 
+#local pref
+*.prl
+
 # Lock files
 *.lck
 
