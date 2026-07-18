@@ -1,0 +1,49 @@
+# ==========================================
+# macOS
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# KiCad 8
+# ==========================================
+
+# Cache files
+fp-info-cache
+
+# Lock files
+*.lck
+
+# Backup / autosave
+*-bak
+*.bak
+*.autosave
+
+# KiCad project local settings
+*.kicad_prl
+
+# ==========================================
+# LTspice
+# ==========================================
+
+# Simulation output
+*.raw
+*.log
+*.net
+*.op.raw
+
+# Temporary files
+*.tmp
+
+# ==========================================
+# Editors
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Python (optional, if you write scripts)
+# ==========================================
+__pycache__/
+*.pyc
